@@ -1,0 +1,16 @@
+{
+  "_note": "Hand-written test fixture used only to test rendering and checks. Not real Claude output.",
+  "customer_release_notes": [
+    {"change_id": "BL-412", "headline": "Reassign many loans at once", "summary": "Managers can now select several loans in the pipeline and reassign them in one step."},
+    {"change_id": "BL-433", "headline": "Faster search", "summary": "Deliberately wrong: internal-only change included to test the check."}
+  ],
+  "briefings": {
+    "support": [{"change_id": "BL-412", "what_changed": "Bulk reassign in pipeline.", "why_it_matters": "Saves managers time.", "action_for_team": "Know that only Manager role users see it.", "likely_questions": [{"q": "Why can't I see it?", "a": "It requires the Manager role."}]}],
+    "sales": [{"change_id": "BL-412", "what_changed": "Bulk reassign.", "why_it_matters": "Less admin for managers.", "action_for_team": "Mention to Pro and Enterprise prospects.", "likely_questions": []}],
+    "implementations": [{"change_id": "BL-418", "what_changed": "Document expiration reminders.", "why_it_matters": "Avoids expired documents at closing.", "action_for_team": "Help admins set rules in Settings > Documents; default is off.", "likely_questions": []}]
+  },
+  "needs_info": [
+    {"change_id": "BL-421", "missing": "Who is affected and whether configuration is required", "question_for_pm": "Is phone-camera upload on for all customers by default?"},
+    {"change_id": "BL-999", "missing": "Test of unknown id", "question_for_pm": "n/a"}
+  ]
+}

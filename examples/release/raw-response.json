@@ -1,0 +1,217 @@
+{
+  "customer_release_notes": [
+    {
+      "change_id": "BL-412",
+      "headline": "Bulk reassign loans in the pipeline",
+      "summary": "Managers can now select multiple loans in the pipeline view and reassign them to another loan officer in one step, without opening each loan. Available to users with the Manager role on Pro and Enterprise plans. No configuration is required."
+    },
+    {
+      "change_id": "BL-418",
+      "headline": "Document expiration reminders",
+      "summary": "Borrower documents such as pay stubs and bank statements now show an expiration date. Loan officers get a reminder 10 days before a document expires so they can request an updated copy. Admins set expiration rules per document type in Settings > Documents. The default is off."
+    },
+    {
+      "change_id": "BL-421",
+      "headline": "Borrower portal: upload from phone camera",
+      "summary": "Borrowers can now take a photo of a document with their phone camera directly from the upload screen in the borrower portal."
+    },
+    {
+      "change_id": "BL-430",
+      "headline": "Fix: pipeline summary report totals",
+      "summary": "We fixed an issue where the pipeline summary report double-counted loans that were reassigned during the month. This affects customers who use the pipeline summary report. No action is required."
+    }
+  ],
+  "briefings": {
+    "support": [
+      {
+        "change_id": "BL-412",
+        "what_changed": "Managers can select multiple loans in the pipeline view and reassign them to another loan officer in one step, instead of opening each loan.",
+        "why_it_matters": "Customers may notice multi-select and bulk reassign in the pipeline view. It is for users with the Manager role on Pro and Enterprise plans. Watch for questions from non-Manager users or Standard/other-plan customers who can't see it.",
+        "action_for_team": "No configuration needed. When users report they can't bulk reassign, check their role (Manager) and plan (Pro or Enterprise) first.",
+        "likely_questions": [
+          {
+            "q": "Who can bulk reassign loans?",
+            "a": "Users with the Manager role on Pro and Enterprise plans."
+          },
+          {
+            "q": "Do we need to turn this on?",
+            "a": "No. No configuration is required."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-418",
+        "what_changed": "Borrower documents such as pay stubs and bank statements now show an expiration date. Loan officers get a reminder 10 days before a document expires so they can request an updated copy.",
+        "why_it_matters": "Applies to all customers, but the default is off. Nothing changes until an admin sets expiration rules. Watch for questions about why no reminders or expiration dates appear.",
+        "action_for_team": "If a customer says they get no reminders, check whether an admin has set expiration rules for that document type in Settings > Documents. Details such as which document types are supported and how expiration dates are calculated are TBD (see needs info).",
+        "likely_questions": [
+          {
+            "q": "Why am I not getting expiration reminders?",
+            "a": "The feature is off by default. An admin must set expiration rules per document type in Settings > Documents."
+          },
+          {
+            "q": "When is the reminder sent?",
+            "a": "Loan officers get a reminder 10 days before a document expires."
+          },
+          {
+            "q": "Can the reminder timing be changed?",
+            "a": "TBD (see needs info)."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-421",
+        "what_changed": "Borrowers can take a photo of a document with their phone camera directly from the upload screen in the borrower portal.",
+        "why_it_matters": "Borrowers may notice a new camera option when uploading. Who is affected and whether configuration is needed is TBD (see needs info).",
+        "action_for_team": "TBD (see needs info). Do not tell customers whether this requires setup or applies to all plans until confirmed.",
+        "likely_questions": [
+          {
+            "q": "Do borrowers need to do anything to use the camera upload?",
+            "a": "TBD (see needs info)."
+          },
+          {
+            "q": "Which customers have this?",
+            "a": "TBD (see needs info)."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-430",
+        "what_changed": "Fixed an issue where the pipeline summary report double-counted loans that had been reassigned during the month.",
+        "why_it_matters": "Customers who use the pipeline summary report may see lower totals than before for months with reassigned loans, because the double-counting is gone. Whether past reports are corrected is TBD (see needs info).",
+        "action_for_team": "If customers report changed totals, explain the fix. Don't say whether previously generated reports were corrected until confirmed. No configuration needed.",
+        "likely_questions": [
+          {
+            "q": "Why did my pipeline report totals change?",
+            "a": "We fixed an issue that double-counted loans reassigned during the month."
+          },
+          {
+            "q": "Are past reports corrected?",
+            "a": "TBD (see needs info)."
+          }
+        ]
+      }
+    ],
+    "sales": [
+      {
+        "change_id": "BL-412",
+        "what_changed": "Managers can reassign multiple loans to another loan officer in one step from the pipeline view.",
+        "why_it_matters": "Solves the problem of opening each loan one at a time to reassign it. Matters to managers on Pro and Enterprise plans.",
+        "action_for_team": "Talking points: Reassign many loans in one step. No setup required. Available to Manager-role users on Pro and Enterprise. Don't quote time savings; none were provided.",
+        "likely_questions": [
+          {
+            "q": "Is this available on all plans?",
+            "a": "No. It's on Pro and Enterprise plans, for users with the Manager role."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-418",
+        "what_changed": "Documents show expiration dates, and loan officers get a reminder 10 days before expiry.",
+        "why_it_matters": "Helps loan officers request updated copies of documents like pay stubs and bank statements before they expire. Matters to all customers who track document freshness.",
+        "action_for_team": "Talking points: Expiration dates on borrower documents. Reminder 10 days before expiry. Admins configure rules per document type; default is off, so it must be enabled.",
+        "likely_questions": [
+          {
+            "q": "Is it on automatically?",
+            "a": "No. Admins set rules per document type in Settings > Documents; default is off."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-421",
+        "what_changed": "Borrowers can photograph a document with their phone camera from the portal upload screen.",
+        "why_it_matters": "Gives borrowers a way to upload documents by taking a photo on their phone. Which customers get it is TBD (see needs info).",
+        "action_for_team": "Talking point: camera capture from the upload screen. Don't state plan availability or setup until confirmed (TBD, see needs info).",
+        "likely_questions": [
+          {
+            "q": "Is it available to all customers?",
+            "a": "TBD (see needs info)."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-430",
+        "what_changed": "Fixed double-counting of reassigned loans in the pipeline summary report.",
+        "why_it_matters": "Improves accuracy of pipeline summary totals for customers who use that report.",
+        "action_for_team": "Mention only if a prospect or customer raises report accuracy. Don't quantify the impact.",
+        "likely_questions": [
+          {
+            "q": "Were my earlier reports wrong?",
+            "a": "Reports could double-count loans reassigned during the month. This is now fixed. Whether past reports are corrected is TBD (see needs info)."
+          }
+        ]
+      }
+    ],
+    "implementations": [
+      {
+        "change_id": "BL-412",
+        "what_changed": "Bulk reassign of loans from the pipeline view.",
+        "why_it_matters": "Affects all Pro and Enterprise customers.",
+        "action_for_team": "No configuration. Confirm the intended users have the Manager role. Rollout notes beyond this: none provided.",
+        "likely_questions": [
+          {
+            "q": "Is there setup?",
+            "a": "No. Available to users with the Manager role."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-418",
+        "what_changed": "Document expiration dates and reminders, controlled by per-document-type rules.",
+        "why_it_matters": "Affects all customers, but nothing happens until configured because the default is off.",
+        "action_for_team": "Have an admin set expiration rules per document type in Settings > Documents. Reminders go to loan officers 10 days before expiry. Specific expiration periods to recommend are TBD (see needs info).",
+        "likely_questions": [
+          {
+            "q": "What is the default?",
+            "a": "Off."
+          },
+          {
+            "q": "What expiration periods should we set?",
+            "a": "TBD (see needs info)."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-421",
+        "what_changed": "Phone camera capture on the borrower portal upload screen.",
+        "why_it_matters": "Affected customers: TBD (see needs info).",
+        "action_for_team": "Configuration steps: TBD (see needs info). Rollout notes: TBD.",
+        "likely_questions": [
+          {
+            "q": "Is configuration required?",
+            "a": "TBD (see needs info)."
+          }
+        ]
+      },
+      {
+        "change_id": "BL-430",
+        "what_changed": "Fixed double-counting of reassigned loans in the pipeline summary report.",
+        "why_it_matters": "Affects customers who use the pipeline summary report.",
+        "action_for_team": "No configuration. Be aware that totals may differ from earlier reports for months with reassigned loans.",
+        "likely_questions": [
+          {
+            "q": "Do we need to do anything?",
+            "a": "No."
+          }
+        ]
+      }
+    ]
+  },
+  "needs_info": [
+    {
+      "change_id": "BL-421",
+      "missing": "Customers affected (plans/tenants) and whether configuration is required.",
+      "question_for_pm": "Which customers or plans get phone camera upload in the borrower portal, and does an admin need to enable it or is it on automatically? Any browser/device limits?"
+    },
+    {
+      "change_id": "BL-418",
+      "missing": "Details on supported document types, whether reminder timing is adjustable, and recommended expiration periods.",
+      "question_for_pm": "Which document types support expiration rules, can the 10-day reminder window be changed, and are there recommended expiration periods for implementers to suggest?"
+    },
+    {
+      "change_id": "BL-430",
+      "missing": "Whether previously generated or historical reports are corrected.",
+      "question_for_pm": "Does the fix apply to past months' pipeline summary reports, or only to reports generated going forward?"
+    }
+  ]
+}

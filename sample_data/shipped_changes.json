@@ -1,0 +1,57 @@
+{
+  "company": "Brightline (fictional lending software company)",
+  "release": "2026.11",
+  "release_date": "2026-11-20",
+  "changes": [
+    {
+      "id": "BL-412",
+      "title": "Bulk reassign loans in the pipeline",
+      "type": "feature",
+      "product_area": "Loan pipeline",
+      "description": "Managers can select multiple loans in the pipeline view and reassign them to another loan officer in one step, instead of opening each loan.",
+      "customers_affected": "All customers on the Pro and Enterprise plans",
+      "configuration_required": "No. Available to users with the Manager role.",
+      "internal_only": false
+    },
+    {
+      "id": "BL-418",
+      "title": "Document expiration reminders",
+      "type": "feature",
+      "product_area": "Document management",
+      "description": "Borrower documents such as pay stubs and bank statements now show an expiration date. Loan officers get a reminder 10 days before a document expires so they can request an updated copy.",
+      "customers_affected": "All customers",
+      "configuration_required": "Yes. Admins set expiration rules per document type in Settings > Documents. Default is off.",
+      "internal_only": false
+    },
+    {
+      "id": "BL-421",
+      "title": "Borrower portal: upload from phone camera",
+      "type": "improvement",
+      "product_area": "Borrower portal",
+      "description": "Borrowers can take a photo of a document with their phone camera directly from the upload screen.",
+      "customers_affected": "",
+      "configuration_required": "",
+      "internal_only": false
+    },
+    {
+      "id": "BL-430",
+      "title": "Fix: pipeline report totals",
+      "type": "fix",
+      "product_area": "Loan pipeline",
+      "description": "Fixed an issue where the pipeline summary report double-counted loans that had been reassigned during the month.",
+      "customers_affected": "Customers who use the pipeline summary report",
+      "configuration_required": "No",
+      "internal_only": false
+    },
+    {
+      "id": "BL-433",
+      "title": "Faster search indexing",
+      "type": "improvement",
+      "product_area": "Platform",
+      "description": "Moved search indexing to a new background job to reduce load on the main database.",
+      "customers_affected": "None directly",
+      "configuration_required": "No",
+      "internal_only": true
+    }
+  ]
+}

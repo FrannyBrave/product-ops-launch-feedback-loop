@@ -1,0 +1,13 @@
+{
+  "_note": "Hand-written test fixture used only to test rendering and checks. Not real Claude output.",
+  "items": [
+    {"id": "FB-101", "type": "bug", "product_area": "Loan pipeline", "summary": "Pipeline filter by closing date takes about a minute.", "customer_impact": "Officers stopped using the filter.", "urgency": "medium", "escalate_now": false, "needs_clarification": false, "clarifying_question": ""},
+    {"id": "FB-104", "type": "bug", "product_area": "Loan pipeline", "summary": "Pipeline date filters are slow.", "customer_impact": "Users frustrated.", "urgency": "medium", "escalate_now": false, "needs_clarification": false, "clarifying_question": ""},
+    {"id": "FB-105", "type": "bug", "product_area": "Borrower portal", "summary": "No one can log in to the borrower portal.", "customer_impact": "Blocking closings today.", "urgency": "high", "escalate_now": true, "needs_clarification": false, "clarifying_question": ""},
+    {"id": "FB-106", "type": "other", "product_area": "Unclear", "summary": "Something with documents isn't working.", "customer_impact": "Not stated", "urgency": "low", "escalate_now": false, "needs_clarification": true, "clarifying_question": "Which document feature, and what happens when they try it?"},
+    {"id": "FB-108", "type": "bug", "product_area": "Loan pipeline", "summary": "Date range filter takes 40+ seconds.", "customer_impact": "Not stated", "urgency": "medium", "escalate_now": false, "needs_clarification": false, "clarifying_question": ""}
+  ],
+  "themes": [
+    {"theme": "Slow pipeline date filters", "item_ids": ["FB-101", "FB-104", "FB-108"], "summary": "Date filtering in the pipeline is slow across several customers."}
+  ]
+}

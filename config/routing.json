@@ -1,0 +1,9 @@
+{
+  "areas": {
+    "Loan pipeline": {"owner": "PM, Pipeline", "slack": "#pm-pipeline"},
+    "Document management": {"owner": "PM, Documents", "slack": "#pm-documents"},
+    "Borrower portal": {"owner": "PM, Borrower Experience", "slack": "#pm-borrower"},
+    "Integrations": {"owner": "PM, Platform", "slack": "#pm-platform"}
+  },
+  "unclear": {"owner": "Product Ops (manual review)", "slack": "#product-ops"}
+}

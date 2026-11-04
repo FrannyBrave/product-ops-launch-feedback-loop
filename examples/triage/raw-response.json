@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": "FB-101",
+      "type": "bug",
+      "product_area": "Loan pipeline",
+      "summary": "Pipeline view takes almost a minute to load when filtered by closing date.",
+      "customer_impact": "Loan officers at Harbor Credit Union stopped using the filter and scroll instead.",
+      "urgency": "medium",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-102",
+      "type": "feature_request",
+      "product_area": "Integrations",
+      "summary": "Summit Home Loans asked whether borrower documents can sync automatically to their Encompass instance.",
+      "customer_impact": "They currently download and re-upload documents manually.",
+      "urgency": "low",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-103",
+      "type": "question",
+      "product_area": "Borrower portal",
+      "summary": "Prospect Prairie Mortgage asks whether the borrower portal supports Spanish.",
+      "customer_impact": "They serve many Spanish-speaking borrowers and the deal is in its final stage.",
+      "urgency": "medium",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-104",
+      "type": "bug",
+      "product_area": "Loan pipeline",
+      "summary": "Pipeline filters, especially date filters, are very slow for Lakeside Lending.",
+      "customer_impact": "Users are frustrated.",
+      "urgency": "medium",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-105",
+      "type": "bug",
+      "product_area": "Borrower portal",
+      "summary": "No one can log in to the borrower portal since this morning and borrowers see an error page.",
+      "customer_impact": "Harbor Credit Union's closings today are blocked.",
+      "urgency": "high",
+      "escalate_now": true,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-106",
+      "type": "other",
+      "product_area": "Unclear",
+      "summary": "Northgate Bank says something with documents isn't working right.",
+      "customer_impact": "Not stated",
+      "urgency": "low",
+      "escalate_now": false,
+      "needs_clarification": true,
+      "clarifying_question": "What exactly is the customer trying to do with documents, what happens instead, and in which part of the product (e.g., upload, viewing, borrower portal)?"
+    },
+    {
+      "id": "FB-107",
+      "type": "feature_request",
+      "product_area": "Integrations",
+      "summary": "Summit Home Loans again asked about pushing documents to Encompass.",
+      "customer_impact": "Their ops lead says the manual step costs them hours a week.",
+      "urgency": "medium",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-108",
+      "type": "bug",
+      "product_area": "Loan pipeline",
+      "summary": "Filtering the pipeline by date range is very slow, taking 40+ seconds.",
+      "customer_impact": "Not stated",
+      "urgency": "medium",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-109",
+      "type": "feature_request",
+      "product_area": "Borrower portal",
+      "summary": "Borrowers at Lakeside Lending ask whether they can upload documents from their phone.",
+      "customer_impact": "Borrowers currently have to email photos to the loan officer.",
+      "urgency": "low",
+      "escalate_now": false,
+      "needs_clarification": false,
+      "clarifying_question": ""
+    },
+    {
+      "id": "FB-110",
+      "type": "other",
+      "product_area": "Unclear",
+      "summary": "Coastal Mortgage asks 'Can we change it?' without saying what.",
+      "customer_impact": "Not stated",
+      "urgency": "low",
+      "escalate_now": false,
+      "needs_clarification": true,
+      "clarifying_question": "What specifically does the customer want to change, and where in the product?"
+    }
+  ],
+  "themes": [
+    {
+      "theme": "Slow pipeline date filtering",
+      "item_ids": [
+        "FB-101",
+        "FB-104",
+        "FB-108"
+      ],
+      "summary": "Three customers report very slow loan pipeline filtering by date (up to about a minute), with users avoiding the filter or frustrated."
+    },
+    {
+      "theme": "Encompass document sync",
+      "item_ids": [
+        "FB-102",
+        "FB-107"
+      ],
+      "summary": "Summit Home Loans wants borrower documents pushed or synced automatically to Encompass instead of manual download and re-upload, which costs hours weekly."
+    }
+  ]
+}

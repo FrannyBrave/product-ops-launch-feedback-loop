@@ -1,0 +1,11 @@
+id,submitted_by,team,customer,date,text
+FB-101,Jordan (Support),support,Harbor Credit Union,2026-11-03,"Loan officers say the pipeline view takes almost a minute to load when they filter by closing date. They've stopped using the filter and scroll instead."
+FB-102,Sam (Implementations),implementations,Summit Home Loans,2026-11-03,"During onboarding they asked if borrower documents can sync automatically to their Encompass instance. Right now they download and re-upload."
+FB-103,Alex (Sales),sales,Prairie Mortgage (prospect),2026-11-04,"Prospect wants to know if we support Spanish in the borrower portal. They serve a lot of Spanish-speaking borrowers. Deal is in final stage."
+FB-104,Jordan (Support),support,Lakeside Lending,2026-11-04,"Pipeline filters are really slow, especially the date filters. Users are frustrated."
+FB-105,Riley (Support),support,Harbor Credit Union,2026-11-05,"Nobody can log in to the borrower portal since this morning. Borrowers are getting an error page. This is blocking closings today."
+FB-106,Sam (Implementations),implementations,Northgate Bank,2026-11-05,"Customer says the thing with the documents isn't working right."
+FB-107,Alex (Sales),sales,Summit Home Loans,2026-11-06,"They love the new pipeline but asked again about pushing documents to Encompass. Their ops lead says the manual step costs them hours a week."
+FB-108,Morgan (Support),support,Riverbend Financial,2026-11-06,"Filtering the pipeline by date range is very slow, takes 40+ seconds."
+FB-109,Riley (Support),support,Lakeside Lending,2026-11-07,"Borrowers keep asking if they can upload from their phone. They have to email photos to the loan officer today."
+FB-110,Morgan (Support),support,Coastal Mortgage,2026-11-07,"Can we change it?"
