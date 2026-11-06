@@ -2,7 +2,7 @@
 
 **A cross-team process design, plus the Claude workflows that run it.**
 
-> **Concept project.** I designed this to show how I'd connect a product team with its customer-facing teams and automate the busywork with AI. It isn't documentation from a real employer. The company "Brightline," its customers and all sample data are fictional.
+> **Concept project.** I designed this to show how I'd connect a product team with its customer-success teams and automate the busywork with AI. It isn't documentation from a real employer. The company "Brightline," its customers and all sample data are fictional.
 
 **Author:** Francesca Djoufack · [github.com/FrannyBrave](https://github.com/FrannyBrave)
 
