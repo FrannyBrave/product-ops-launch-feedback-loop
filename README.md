@@ -1,8 +1,15 @@
 # Product Ops Launch & Feedback Loop
 
-**A cross-team process design, plus the Claude workflows that run it.**
+**A process for keeping product and customer-success teams in sync, plus two Claude-powered tools that do the busywork.**
 
-> **Concept project.** I designed this to show how I'd connect a product team with its customer-success teams and automate the busywork with AI. It isn't documentation from a real employer. The company "Brightline," its customers and all sample data are fictional.
+> **Concept project.** I designed this to show how I'd connect a product team with its customer-success teams (Support, Sales and Implementations) and use AI to take the manual work out of it. It isn't documentation from a real employer. The company "Brightline," its customers and all sample data are fictional.
+
+**What the two tools do**
+
+- **Launches going out:** you give it a list of features that just shipped, and it writes customer release notes plus a short briefing for Support, Sales and Implementations.
+- **Feedback coming in:** it sorts customer feedback by type and urgency, sends each item to the PM who owns that area, and spots problems several customers are raising.
+
+Neither tool guesses. If information is missing, it flags it with a specific question, and a person reviews every output before it's shared.
 
 **Author:** Francesca Djoufack · [github.com/FrannyBrave](https://github.com/FrannyBrave)
 
